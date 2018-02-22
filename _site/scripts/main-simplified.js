@@ -260,7 +260,7 @@ $(document).ready(function() {
 
           if ($('.primary-navigation').children().eq(0).hasClass('focus')) {
 
-              window.location.href = '/carousel-testing/';
+              window.location.href = '/simplified-prototype/';
 
           }
 
