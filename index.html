@@ -1,0 +1,31 @@
+---
+layout: tv-layout
+title: Carousel variant
+---
+
+<div class="container homepage">
+  <div class="container-inner">
+
+    {% include _slices/368px-carousel.html      data='proto-editorial-highlights'  title='iPlayer highlights' %}
+    {% include _slices/271px-carousel.html      data='proto-most-popular'          title='Most popular' %}
+    {% include _slices/271px-carousel.html      data='proto-recommended-for-you'   title='Recommended for you' %}
+    {% include _slices/271px-carousel.html      data='proto-normal-priority'       title='David Attenborough - The Early Years' %}
+    {% include _slices/271px-carousel.html      data='proto-drama'                 title='Drama' %}
+    {% include _slices/271px-carousel.html      data='proto-comedy'                title='Comedy' %}
+    {% include _slices/271px-carousel.html      data='proto-documentaries'         title='Documentaries' %}
+    {% include _slices/271px-carousel.html      data='proto-entertainment'         title='Entertainment' %}
+    {% include _slices/271px-carousel.html      data='proto-added'                 title='Your Added programmes' %}
+
+    {% include _slices/271px-app-footer.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-high-priority">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-high-priority' title='Comedy Box Sets from BBC' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>

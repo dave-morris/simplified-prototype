@@ -1,0 +1,134 @@
+---
+layout: tv-layout
+title: Low performance
+---
+
+<div class="container homepage">
+  <div class="container-inner">
+
+    {% include _slices/332px-row-view-all.html data='proto-editorial-highlights' title='iPlayer highlights' %}
+    {% include _slices/245px-watching-row-view-all.html data='proto-continue-watching' title='Continue watching…' image='soap-fan-watching-list-background.png' %}
+    {% include _slices/245px-row-view-all.html data='proto-high-priority' title='Comedy Box Sets from BBC' %}
+    {% include _slices/245px-row-view-all.html data='proto-most-popular' title='Most popular' %}
+    {% include _slices/245px-row-view-all.html data='proto-recommended-for-you' title='Recommended for you' %}
+    {% include _slices/245px-row-view-all.html data='proto-normal-priority' title='David Attenborough - The Early Years' %}
+    {% include _slices/245px-row-category.html data='proto-drama' title='Drama' %}
+    {% include _slices/245px-row-category.html data='proto-comedy' title='Comedy' %}
+    {% include _slices/245px-row-atoz.html data='proto-documentaries' title='Documentaries' %}
+    {% include _slices/245px-row-atoz.html data='proto-entertainment' title='Entertainment' %}
+    {% include _slices/245px-row-view-all.html data='proto-added' title='Your Added Programmes' %}
+    {% include _slices/271px-app-footer.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-editorial-highlights">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-editorial-highlights' title='iPlayer highlights' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-continue-watching">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-continue-watching' title='Continue watching…' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-high-priority">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-high-priority' title='Comedy Box Sets from BBC' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-most-popular">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-most-popular' title='Most popular' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-normal-priority">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-normal-priority' title='David Attenborough - The Early Years' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-recommended-for-you">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-recommended-for-you' title='Recommended for you' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>
+
+<div class="container onwardJourney" data-id="proto-added">
+  <div class="container-grid">
+
+      {% include 271px-endless-grid.html data='proto-added' title='Your Added Programmes' %}
+      {% include 271px-grid-back-to.html %}
+
+  </div>
+</div>
+
+<div class="container atoz" data-id="proto-documentaries" style="background-image: url({{ site.baseurl}}/img/documentaries-atoz.jpg); background-repeat: no-repeat;">
+  <div class="container-grid">
+
+    <div class="endlessgrid empty">
+      <div class="row-content">
+        <div class="content-wrapper"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container atoz" data-id="proto-entertainment" style="background-image: url({{ site.baseurl}}/img/entertainment-atoz.jpg); background-repeat: no-repeat;">
+  <div class="container-grid">
+
+    <div class="endlessgrid empty">
+      <div class="row-content">
+        <div class="content-wrapper"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container category" data-id="proto-comedy" style="background-image: url({{ site.baseurl}}/img/comedy.jpg); background-repeat: no-repeat;">
+  <div class="container-grid">
+
+    <div class="endlessgrid empty">
+      <div class="row-content">
+        <div class="content-wrapper"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container category" data-id="proto-drama" style="background-image: url({{ site.baseurl}}/img/drama.jpg); background-repeat: no-repeat;">
+  <div class="container-grid">
+
+    <div class="endlessgrid empty">
+      <div class="row-content">
+        <div class="content-wrapper"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
