@@ -121,7 +121,9 @@ $(document).ready(function() {
             //Large carousels only move if they're not the last 2
           if ($('.carousel').hasClass('active') && $('.carousel').hasClass('large')) {
 
-            if (current < total - 2 && !(current == 1)) {
+            if ((current < total-1) && !(current == 1)) {
+
+              console.log("I am a large carousel")
 
               var adjust = carouselPositionX - widthToMove;
               $('.active .carousel-content').css('transform', 'translateX(' + adjust + 'px)');
@@ -131,7 +133,9 @@ $(document).ready(function() {
             //Medium carousels only move if they're not the last 3
           } else if ($('.carousel').hasClass('active') && $('.carousel').hasClass('medium')) {
 
-            if (current < total - 3 && !(current == 1)) {
+            if ((current < total-10) && !(current == 1)) {
+
+              console.log("I am a medium carousel")
 
               var adjust = carouselPositionX - widthToMove;
               $('.active .carousel-content').css('transform', 'translateX(' + adjust + 'px)');
@@ -267,6 +271,12 @@ $(document).ready(function() {
           if ($('.primary-navigation').children().eq(2).hasClass('focus')) {
 
               window.location.href = '/simplified-prototype/prototypes/112px-margins/';
+
+          }
+
+          if ($('.primary-navigation').children().eq(3).hasClass('focus')) {
+
+              window.location.href = '/simplified-prototype/prototypes/80-120-split/';
 
           }
 
