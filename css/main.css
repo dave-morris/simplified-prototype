@@ -431,7 +431,7 @@
 }
 
 .carousel-content {
-  width: 100000px;
+  width: 10000px;
   transform:translateX(0px);
   /* transition: all 120ms ease-in-out; */
 }
@@ -453,7 +453,6 @@
 .highlight {
   height: 292px;
   width: 352px;
-  margin-right: 16px;
 }
 
 .small {

@@ -258,9 +258,15 @@ $(document).ready(function() {
 
         function pressEnter() {
 
-          if ($('.primary-navigation').children().eq(0).hasClass('focus')) {
+          if ($('.primary-navigation').children().eq(1).hasClass('focus')) {
 
               window.location.href = '/simplified-prototype/';
+
+          }
+
+          if ($('.primary-navigation').children().eq(2).hasClass('focus')) {
+
+              window.location.href = '/simplified-prototype/prototypes/112px-margins/';
 
           }
 
