@@ -121,7 +121,7 @@ $(document).ready(function() {
             //Large carousels only move if they're not the last 2
           if ($('.carousel').hasClass('active') && $('.carousel').hasClass('large')) {
 
-            if (current < total - 1 && !(current == 1)) {
+            if (current < total - 2 && !(current == 1)) {
 
               var adjust = carouselPositionX - widthToMove;
               $('.active .carousel-content').css('transform', 'translateX(' + adjust + 'px)');
@@ -131,7 +131,7 @@ $(document).ready(function() {
             //Medium carousels only move if they're not the last 3
           } else if ($('.carousel').hasClass('active') && $('.carousel').hasClass('medium')) {
 
-            if (current < total - 2 && !(current == 1)) {
+            if (current < total - 3 && !(current == 1)) {
 
               var adjust = carouselPositionX - widthToMove;
               $('.active .carousel-content').css('transform', 'translateX(' + adjust + 'px)');
